@@ -1,0 +1,11 @@
+.\out\w25qxx.o: devices\HARDWARE\W25QXX\w25qxx.c
+.\out\w25qxx.o: devices\HARDWARE\W25QXX\w25qxx.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\sys.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\stm32h7xx.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\stm32h750xx.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\core_cm7.h
+.\out\w25qxx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\cmsis_compiler.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\cmsis_armcc.h
+.\out\w25qxx.o: .\devices\SYSTEM\sys\system_stm32h7xx.h
+.\out\w25qxx.o: .\devices\HARDWARE\QSPI\qspi.h

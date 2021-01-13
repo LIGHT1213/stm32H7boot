@@ -1,0 +1,49 @@
+Dependencies for Project 'STM32H750_W25Q64', Target 'H7PIV10_W25Q64': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\FlashPrg.c)(0x5F9CFE1C)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\STM32H750_W25Q64 -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX --diag_suppress=66-I.\RTE\_H7PIV10_W25Q64-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DW25Q64JV -DSTM32H750xx-o .\out\flashprg.o --omf_browse .\out\flashprg.crf --depend .\out\flashprg.d)
+I (..\FlashOS.H)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\sys.h)(0x5FFE95EC)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\stm32h750xx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5F9CFE1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5F9CFE1C)
+I (.\devices\HARDWARE\QSPI\qspi.h)(0x5F9CFE1C)
+I (.\devices\HARDWARE\W25QXX\w25qxx.h)(0x5F9CFE1C)
+F (.\FlashDev.c)(0x5FFE9770)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\STM32H750_W25Q64 -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX --diag_suppress=66-I.\RTE\_H7PIV10_W25Q64-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DW25Q64JV -DSTM32H750xx-o .\out\flashdev.o --omf_browse .\out\flashdev.crf --depend .\out\flashdev.d)
+I (..\FlashOS.H)(0x5F9CFE1C)
+F (.\devices\HARDWARE\QSPI\qspi.c)(0x5FFE91FB)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\STM32H750_W25Q64 -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX --diag_suppress=66-I.\RTE\_H7PIV10_W25Q64-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DW25Q64JV -DSTM32H750xx-o .\out\qspi.o --omf_browse .\out\qspi.crf --depend .\out\qspi.d)
+I (devices\HARDWARE\QSPI\qspi.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\sys.h)(0x5FFE95EC)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\stm32h750xx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5F9CFE1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5F9CFE1C)
+F (.\devices\HARDWARE\QSPI\qspi.h)(0x5F9CFE1C)()
+F (.\devices\HARDWARE\W25QXX\w25qxx.c)(0x5F9CFE1C)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\STM32H750_W25Q64 -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX --diag_suppress=66-I.\RTE\_H7PIV10_W25Q64-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DW25Q64JV -DSTM32H750xx-o .\out\w25qxx.o --omf_browse .\out\w25qxx.crf --depend .\out\w25qxx.d)
+I (devices\HARDWARE\W25QXX\w25qxx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\sys.h)(0x5FFE95EC)
+I (.\devices\SYSTEM\sys\stm32h7xx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\stm32h750xx.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\core_cm7.h)(0x5F9CFE1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (.\devices\SYSTEM\sys\cmsis_compiler.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\cmsis_armcc.h)(0x5F9CFE1C)
+I (.\devices\SYSTEM\sys\system_stm32h7xx.h)(0x5F9CFE1C)
+I (.\devices\HARDWARE\QSPI\qspi.h)(0x5F9CFE1C)
+F (.\devices\HARDWARE\W25QXX\w25qxx.h)(0x5F9CFE1C)()
+F (.\devices\SYSTEM\sys\sys.c)(0x5F9CFE1C)(-c --cpu Cortex-M7.fp.dp -g -O2 --apcs=interwork --apcs /ropi/rwpi -I ..\STM32H750_W25Q64 -I .\devices\SYSTEM\sys -I .\devices\HARDWARE\QSPI -I .\devices\HARDWARE\W25QXX --diag_suppress=66-I.\RTE\_H7PIV10_W25Q64-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32H750xx -D_RTE_ -DW25Q64JV -DSTM32H750xx-o .\out\sys.o --omf_browse .\out\sys.crf --depend .\out\sys.d)
+I (devices\SYSTEM\sys\sys.h)(0x5FFE95EC)
+I (devices\SYSTEM\sys\stm32h7xx.h)(0x5F9CFE1C)
+I (devices\SYSTEM\sys\stm32h750xx.h)(0x5F9CFE1C)
+I (devices\SYSTEM\sys\core_cm7.h)(0x5F9CFE1C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
+I (devices\SYSTEM\sys\cmsis_compiler.h)(0x5F9CFE1C)
+I (devices\SYSTEM\sys\cmsis_armcc.h)(0x5F9CFE1C)
+I (devices\SYSTEM\sys\system_stm32h7xx.h)(0x5F9CFE1C)
+F (.\devices\SYSTEM\sys\sys.h)(0x5FFE95EC)()

@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M7.fp.dp -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../../TestGfx -I ../TouchGFX/App -I ../TouchGFX/target/generated -I ../TouchGFX/target -I ../middlewares/st/touchgfx/framework/include -I ../touchgfx/generated/fonts/include -I ../touchgfx/generated/gui_generated/include -I ../touchgfx/generated/images/include -I ../touchgfx/generated/texts/include -I ../touchgfx/gui/include
+-I.\RTE\_TestGfx
+-IC:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-IC:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+-D__UVISION_VERSION="531" -D_RTE_ -DSTM32H750xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H750xx
+-o testgfx\stm32h7xx_hal_gpio.o --depend testgfx\stm32h7xx_hal_gpio.d --feedback "TestGfx\TestGfx.fed" "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c"

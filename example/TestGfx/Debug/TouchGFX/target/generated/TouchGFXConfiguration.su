@@ -1,0 +1,93 @@
+Types.hpp:130:5:touchgfx::Rect::Rect()	16	static
+TypedText.hpp:169:17:static void touchgfx::TypedText::registerTexts(const touchgfx::Texts*)	16	static
+FontManager.hpp:46:13:touchgfx::FontProvider::~FontProvider()	16	static
+FontManager.hpp:46:13:virtual touchgfx::FontProvider::~FontProvider()	16	static
+MVPHeap.hpp:49:5:touchgfx::MVPHeap::MVPHeap(touchgfx::AbstractPartition&, touchgfx::AbstractPartition&, touchgfx::AbstractPartition&, touchgfx::MVPApplication&)	24	static
+MVPHeap.hpp:61:13:touchgfx::MVPHeap::~MVPHeap()	16	static
+MVPHeap.hpp:61:13:virtual touchgfx::MVPHeap::~MVPHeap()	16	static
+UIEventListener.hpp:48:18:virtual void touchgfx::UIEventListener::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+UIEventListener.hpp:57:18:virtual void touchgfx::UIEventListener::handleDragEvent(const touchgfx::DragEvent&)	16	static
+UIEventListener.hpp:66:18:virtual void touchgfx::UIEventListener::handleGestureEvent(const touchgfx::GestureEvent&)	16	static
+UIEventListener.hpp:75:18:virtual void touchgfx::UIEventListener::handleKeyEvent(uint8_t)	16	static
+UIEventListener.hpp:83:18:virtual void touchgfx::UIEventListener::handleTickEvent()	16	static
+UIEventListener.hpp:88:18:virtual void touchgfx::UIEventListener::handlePendingScreenTransition()	16	static
+UIEventListener.hpp:93:13:touchgfx::UIEventListener::~UIEventListener()	16	static
+UIEventListener.hpp:93:13:virtual touchgfx::UIEventListener::~UIEventListener()	16	static
+LCD.hpp:60:13:touchgfx::LCD::~LCD()	16	static
+LCD.hpp:60:13:virtual touchgfx::LCD::~LCD()	16	static
+Application.hpp:77:18:virtual void touchgfx::Application::appSwitchScreen(uint8_t)	16	static
+Application.hpp:89:18:virtual void touchgfx::Application::requestRedraw(touchgfx::Rect&)	16	static
+Callback.hpp:182:13:touchgfx::GenericCallback<void>::~GenericCallback()	16	static
+Callback.hpp:182:13:virtual touchgfx::GenericCallback<void>::~GenericCallback()	16	static
+Gestures.hpp:41:9:touchgfx::Gestures::DragState::DragState()	16	static
+Gestures.hpp:65:5:touchgfx::Gestures::Gestures()	16	static
+TouchController.hpp:33:13:touchgfx::TouchController::~TouchController()	16	static
+TouchController.hpp:33:13:virtual touchgfx::TouchController::~TouchController()	16	static
+HAL.hpp:60:5:touchgfx::HAL::HAL(touchgfx::DMA_Interface&, touchgfx::LCD&, touchgfx::TouchController&, uint16_t, uint16_t)	24	static
+HAL.hpp:99:13:touchgfx::HAL::~HAL()	16	static
+HAL.hpp:99:13:virtual touchgfx::HAL::~HAL()	16	static
+HAL.hpp:545:18:virtual void touchgfx::HAL::backPorchExited()	16	static
+Application.hpp:42:7:touchgfx::Application::~Application()	16	static
+Application.hpp:42:7:virtual touchgfx::Application::~Application()	16	static
+MVPApplication.hpp:63:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	16	static
+MVPApplication.hpp:77:10:void touchgfx::MVPApplication::evaluatePendingScreenTransition()	16	static
+MVPApplication.hpp:47:7:touchgfx::MVPApplication::~MVPApplication()	16	static
+MVPApplication.hpp:47:7:virtual touchgfx::MVPApplication::~MVPApplication()	16	static
+FrontendApplicationBase.hpp:16:13:FrontendApplicationBase::~FrontendApplicationBase()	16	static
+FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	16	static
+FrontendApplication.hpp:14:13:FrontendApplication::~FrontendApplication()	16	static
+FrontendApplication.hpp:14:13:virtual FrontendApplication::~FrontendApplication()	16	static
+FrontendApplication.hpp:16:18:virtual void FrontendApplication::handleTickEvent()	16	static
+FrontendHeapBase.hpp:74:18:virtual void FrontendHeapBase::gotoStartScreen(FrontendApplication&)	16	static
+FrontendHeapBase.hpp:79:5:FrontendHeapBase::FrontendHeapBase(touchgfx::AbstractPartition&, touchgfx::AbstractPartition&, touchgfx::AbstractPartition&, FrontendApplication&)	32	static
+FrontendHeap.hpp:56:29:void __tcf_0()	8	static
+FrontendHeap.hpp:54:26:static FrontendHeap& FrontendHeap::getInstance()	8	static
+FrontendHeapBase.hpp:32:7:FrontendHeapBase::~FrontendHeapBase()	16	static
+FrontendHeapBase.hpp:32:7:virtual FrontendHeapBase::~FrontendHeapBase()	16	static
+Partition.hpp:44:7:touchgfx::Partition<touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::Partition()	16	static
+Partition.hpp:44:7:touchgfx::Partition<touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::Partition()	16	static
+Partition.hpp:44:7:touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::Partition()	16	static
+FrontendHeap.hpp:67:5:FrontendHeap::FrontendHeap()	32	static
+TouchGFXGeneratedHAL.hpp:44:5:TouchGFXGeneratedHAL::TouchGFXGeneratedHAL(touchgfx::DMA_Interface&, touchgfx::LCD&, touchgfx::TouchController&, uint16_t, uint16_t)	32	static
+TouchGFXGeneratedHAL.hpp:28:7:TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
+TouchGFXGeneratedHAL.hpp:28:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
+TouchGFXHAL.hpp:47:5:TouchGFXHAL::TouchGFXHAL(touchgfx::DMA_Interface&, touchgfx::LCD&, touchgfx::TouchController&, uint16_t, uint16_t)	32	static
+TouchController.hpp:29:7:constexpr touchgfx::TouchController::TouchController()	16	static
+STM32TouchController.hpp:37:5:STM32TouchController::STM32TouchController()	16	static
+TouchGFXConfiguration.cpp:38:6:void touchgfx_init()	32	static
+TouchGFXConfiguration.cpp:58:6:void touchgfx_taskEntry()	8	static
+FrontendHeap.hpp:6:7:FrontendHeap::~FrontendHeap()	16	static
+FrontendHeap.hpp:6:7:virtual FrontendHeap::~FrontendHeap()	16	static
+Partition.hpp:44:7:touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
+Partition.hpp:44:7:virtual touchgfx::Partition<touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
+Partition.hpp:44:7:touchgfx::Partition<touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
+Partition.hpp:44:7:virtual touchgfx::Partition<touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
+Partition.hpp:44:7:touchgfx::Partition<touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
+Partition.hpp:44:7:virtual touchgfx::Partition<touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
+TouchGFXHAL.hpp:31:7:TouchGFXHAL::~TouchGFXHAL()	16	static
+TouchGFXHAL.hpp:31:7:virtual TouchGFXHAL::~TouchGFXHAL()	16	static
+LCD16bpp.hpp:46:7:touchgfx::LCD16bpp::~LCD16bpp()	16	static
+LCD16bpp.hpp:46:7:virtual touchgfx::LCD16bpp::~LCD16bpp()	16	static
+STM32TouchController.hpp:33:7:STM32TouchController::~STM32TouchController()	16	static
+STM32TouchController.hpp:33:7:virtual STM32TouchController::~STM32TouchController()	16	static
+TouchGFXConfiguration.cpp:69:1:void __static_initialization_and_destruction_0(int, int)	24	static
+Callback.hpp:430:8:touchgfx::Callback<FrontendApplicationBase>::~Callback()	16	static
+Callback.hpp:430:8:virtual touchgfx::Callback<FrontendApplicationBase>::~Callback()	16	static
+ApplicationFontProvider.hpp:29:7:ApplicationFontProvider::~ApplicationFontProvider()	16	static
+ApplicationFontProvider.hpp:29:7:virtual ApplicationFontProvider::~ApplicationFontProvider()	16	static
+Partition.hpp:67:22:uint16_t touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::capacity() const [with ListOfTypes = touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:79:22:uint32_t touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element_size() [with ListOfTypes = touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:94:19:void* touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element(uint16_t) [with ListOfTypes = touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:108:25:const void* touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element(uint16_t) const [with ListOfTypes = touchgfx::meta::TypeList<touchgfx::NoTransition, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:67:22:uint16_t touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::capacity() const [with ListOfTypes = touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:79:22:uint32_t touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element_size() [with ListOfTypes = touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:94:19:void* touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element(uint16_t) [with ListOfTypes = touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:108:25:const void* touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element(uint16_t) const [with ListOfTypes = touchgfx::meta::TypeList<screenView, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:67:22:uint16_t touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::capacity() const [with ListOfTypes = touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:79:22:uint32_t touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element_size() [with ListOfTypes = touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:94:19:void* touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element(uint16_t) [with ListOfTypes = touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Partition.hpp:108:25:const void* touchgfx::Partition<ListOfTypes, NUMBER_OF_ELEMENTS>::element(uint16_t) const [with ListOfTypes = touchgfx::meta::TypeList<screenPresenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >; short unsigned int NUMBER_OF_ELEMENTS = 1]	16	static
+Callback.hpp:456:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = FrontendApplicationBase]	16	static
+Callback.hpp:466:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = FrontendApplicationBase]	16	static
+TouchGFXConfiguration.cpp:69:1:cpp)	8	static
+TouchGFXConfiguration.cpp:69:1:cpp)	8	static
