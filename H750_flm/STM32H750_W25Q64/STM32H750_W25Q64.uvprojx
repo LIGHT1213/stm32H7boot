@@ -49,7 +49,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Out\</OutputDirectory>
-          <OutputName>H7PIV10_W25Q64</OutputName>
+          <OutputName>STM32H750_W25Q64</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
