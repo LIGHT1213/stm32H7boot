@@ -3,55 +3,86 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: ¦ÌVision V5.33.0.0
-Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: light pan, zucc, LIC=Y2B1Q-NB24G-WK5B8-33S6H-0KQDX-QDBUR
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 12 23, 45, LIC=LJWP0-BKS3R-RFVIZ-JYLIS-BPK1L-52ZCL
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.33.0.0
-Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
-C Compiler:      ArmClang.exe V6.15
-Assembler:       Armasm.exe V6.15
-Linker/Locator:  ArmLink.exe V6.15
-Library Manager: ArmAr.exe V6.15
-Hex Converter:   FromElf.exe V6.15
-CPU DLL:         SARMCM3.DLL V5.33.0.0
-Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      Segger\JL2CM3.dll V2.99.38.0
-Dialog DLL:      TCM.DLL V1.48.0.0
+Toolchain:       MDK-ARM Professional  Version: 5.40.0.3
+Toolchain Path:  C:\Users\pan39\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.18.0
+Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-C:\Users\pan39\Desktop\singalchip\stm32H7boot\H750Boot\MDK-ARM\H750Boot.uvprojx
-Project File Date:  01/13/2021
+C:\Users\pan39\Desktop\WorkSpace\stm32H7boot\H750Boot\MDK-ARM\H750Boot.uvprojx
+Project File Date:  09/12/2024
 
 <h2>Output:</h2>
-*** Using Compiler 'V6.15', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
-Build target 'H750Boot'
+*** Using Compiler 'V6.22', folder: 'C:\Users\pan39\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'H750Boot'
+assembling startup_stm32h750xx.s...
+compiling main.c...
+compiling myMain.c...
+compiling stm32h7xx_hal_msp.c...
+compiling quadspi.c...
+compiling gpio.c...
+compiling stm32h7xx_it.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_hal_cortex.c...
+compiling stm32h7xx_hal_flash.c...
+compiling stm32h7xx_hal_flash_ex.c...
+compiling stm32h7xx_hal_hsem.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling w25qxx.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_dma_ex.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_i2c_ex.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal.c...
+compiling stm32h7xx_hal_mdma.c...
+compiling stm32h7xx_hal_exti.c...
+compiling stm32h7xx_hal_dma.c...
+compiling stm32h7xx_hal_tim.c...
+compiling stm32h7xx_hal_tim_ex.c...
+compiling system_stm32h7xx.c...
+compiling stm32h7xx_hal_qspi.c...
+compiling stm32h7xx_hal_i2c.c...
+linking...
+Program Size: Code=10996 RO-data=712 RW-data=16 ZI-data=1728  
+FromELF: creating hex file...
 "H750Boot\H750Boot.axf" - 0 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
 Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
-                ARM.CMSIS.5.7.0
-                CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 5.4.0
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
 
 Package Vendor: Keil
-                https://www.keil.com/pack/Keil.STM32H7xx_DFP.2.7.0.pack
-                Keil.STM32H7xx_DFP.2.7.0
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.3.1.0.pack
+                Keil::STM32H7xx_DFP@3.1.0
                 STMicroelectronics STM32H7 Series Device Support and Examples
 
 <h2>Collection of Component include folders:</h2>
-  .\RTE\_H750Boot
-  C:\Users\pan39\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
-  C:\Users\pan39\AppData\Local\Arm\Packs\Keil\STM32H7xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+  ./RTE/_H750Boot
+  C:/Users/pan39/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/pan39/AppData/Local/Arm/Packs/Keil/STM32H7xx_DFP/3.1.0/Drivers/CMSIS/Device/ST/STM32H7xx/Include
 
 <h2>Collection of Component Files used:</h2>
 
-   * Component: ARM::CMSIS:CORE:5.4.0
-      Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:00
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

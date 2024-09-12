@@ -5,6 +5,8 @@
 "h750boot\quadspi.o"
 "h750boot\stm32h7xx_it.o"
 "h750boot\stm32h7xx_hal_msp.o"
+"h750boot\mymain.o"
+"h750boot\w25qxx.o"
 "h750boot\stm32h7xx_hal_cortex.o"
 "h750boot\stm32h7xx_hal_rcc.o"
 "h750boot\stm32h7xx_hal_rcc_ex.o"
@@ -25,8 +27,6 @@
 "h750boot\stm32h7xx_hal_tim.o"
 "h750boot\stm32h7xx_hal_tim_ex.o"
 "h750boot\system_stm32h7xx.o"
-"h750boot\mymain.o"
-"h750boot\w25qxx.o"
 --strict --scatter "H750Boot\H750Boot.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
